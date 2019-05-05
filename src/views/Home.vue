@@ -3,6 +3,7 @@
         <p class="url-list" v-for="(item,index) of list" :key="index">
             <router-link class="url" :to="item.url">{{index + 1}}. {{item.name}}</router-link>
         </p>
+        <div class="hairline-example hairline"></div>
     </div>
 </template>
 
@@ -24,6 +25,10 @@ export default {
                 {
                     name:'ios中input唤出虚拟键盘改变页面高度影响布局',
                     url:'/test2'
+                },
+                {
+                    name:'移动端border 1px',
+                    url:'/test3'
                 }
             ]
         }

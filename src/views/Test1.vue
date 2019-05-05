@@ -12,7 +12,6 @@
 <script>
 // 模态框滚动穿透问题
 export default {
-    name:'Test1',
     data(){
         return {
 
