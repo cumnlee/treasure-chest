@@ -7,8 +7,17 @@ html{
 }
 html,
 body{
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
+}
+body{
+    width: 100%;
+    position: fixed;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    background-color: #eeeeee;
 }
 p{
     padding: 0;
@@ -16,4 +25,8 @@ p{
 }
 a{
     -webkit-tap-highlight-color:transparent;
+}
+body.fix-ios-input-cursor{
+    position:fixed!important;
+    width:100%!important;
 }
