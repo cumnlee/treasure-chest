@@ -1,18 +1,25 @@
 import Vue from 'vue'
 
-// import 'normalize.css'
+import 'normalize.css'
 import './assets/css/index.css'
 
 import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import Vant from 'vant';
-import 'vant/lib/index.css';
+// import Vant from 'vant'
+// import 'vant/lib/index.css'
+// Vue.use(Vant);
 
-Vue.config.productionTip = false
+import mandMobile from 'mand-mobile'
+import 'mand-mobile/lib/mand-mobile.css'
+Vue.use(mandMobile)
 
-Vue.use(Vant);
+import { jqueryAjax } from './assets/js/ajax'
+
+Vue.prototype.ajax = jqueryAjax;
+
+Vue.config.productionTip = true;
 
 new Vue({
   router,

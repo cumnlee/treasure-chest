@@ -29,9 +29,34 @@ export default {
                 {
                     name:'移动端border 1px',
                     url:'/test3'
+                },
+                {
+                    name:'使用promise封装ajax',
+                    url:'/test4'
+                },
+                {
+                    name:'mand mobile尝试',
+                    url:'/test5'
                 }
-            ]
+            ],
+            a:1
         }
+    },
+    computed:{
+        aPlus(){
+            return this.a + 10;
+        }
+    },
+    watch:{
+        aPlus(newVal,oldVal){
+            console.log(newVal,oldVal);
+        }
+    },
+    created(){
+        
+    },
+    methods:{
+
     }
 }
 </script>

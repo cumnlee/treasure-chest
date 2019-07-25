@@ -25,12 +25,6 @@ export default {
         height: 100%;
         box-sizing: border-box;
         padding: 20px;
-        background-color: #ffffff;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
         overflow: auto;
     }
 </style>
