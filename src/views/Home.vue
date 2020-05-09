@@ -36,7 +36,10 @@ export default {
                 },
                 {
                     name:'mand mobile尝试',
-                    url:'/test5'
+                    url:'/test5',
+                    params:{
+                        id:'1',
+                    }
                 }
             ],
             a:1

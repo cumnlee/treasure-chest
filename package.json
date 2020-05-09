@@ -8,20 +8,20 @@
   },
   "dependencies": {
     "axios": "^0.18.1",
-    "jquery": "^3.4.1",
-    "mand-mobile": "^2.3.3",
+    "jquery": "^3.5.1",
+    "mand-mobile": "^2.5.10",
     "normalize.css": "^8.0.1",
-    "vant": "^1.6.24",
-    "vue": "^2.6.6",
-    "vue-router": "^3.0.7",
-    "vuex": "^3.1.1"
+    "vant": "^1.6.28",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.3.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.9.2",
-    "@vue/cli-service": "^3.9.3",
-    "less": "^3.0.4",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "less": "^3.11.1",
     "less-loader": "^4.1.0",
     "postcss-pxtorem": "^4.0.1",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.6.11"
   }
 }
